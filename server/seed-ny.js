@@ -11,10 +11,10 @@ var {
 } = require('./models');
 
 var data = {
-  hotel: [
+  Hotel: [
     {
       name: "Andaz Wall Street",
-      place: {
+      Place: {
         address: "75 Wall St",
         city: "New York",
         state: "NY",
@@ -26,7 +26,7 @@ var data = {
     },
     {
       name: "Hotel Mulberry",
-      place: {
+      Place: {
         address: "52 Mulberry St",
         city: "New York",
         state: "NY",
@@ -38,7 +38,7 @@ var data = {
     },
     {
       name: "The Ritz-Carlton New York, Battery Park",
-      place: {
+      Place: {
         address: "Two West Street",
         city: "New York",
         state: "NY",
@@ -50,7 +50,7 @@ var data = {
     },
     {
       name: "Wall Street Inn",
-      place: {
+      Place: {
         address: "9 S William St",
         city: "New York",
         state: "NY",
@@ -62,7 +62,7 @@ var data = {
     },
     {
       name: "Smyth TriBeCa",
-      place: {
+      Place: {
         address: "85 West Broadway",
         city: "New York",
         state: "NY",
@@ -74,7 +74,7 @@ var data = {
     },
     {
       name: "Double Tree",
-      place: {
+      Place: {
         address: "8 Stone St",
         city: "New York",
         state: "NY",
@@ -86,7 +86,7 @@ var data = {
     },
     {
       name: "Hotel 91",
-      place: {
+      Place: {
         address: "91 E Broadway",
         city: "New York",
         state: "NY",
@@ -98,7 +98,7 @@ var data = {
     },
     {
       name: "Conrad New York Hotel",
-      place: {
+      Place: {
         address: "102 N End Ave",
         city: "New York",
         state: "NY",
@@ -110,7 +110,7 @@ var data = {
     },
     {
       name: "Millenium Hilton Hotel",
-      place: {
+      Place: {
         address: "55 Church St",
         city: "New York",
         state: "NY",
@@ -122,7 +122,7 @@ var data = {
     },
     {
       name: "US Pacific Hotel",
-      place: {
+      Place: {
         address: "106 Bowery",
         city: "New York",
         state: "NY",
@@ -134,7 +134,7 @@ var data = {
     },
     {
       name: "Gild Hall, a Thompson Hotel",
-      place: {
+      Place: {
         address: "15 Gold Street",
         city: "New York",
         state: "NY",
@@ -146,7 +146,7 @@ var data = {
     },
     {
       name: "W New York",
-      place: {
+      Place: {
         address: "123 Washington Street",
         city: "New York",
         state: "NY",
@@ -158,7 +158,7 @@ var data = {
     },
     {
       name: "New York Marriott Downtown",
-      place: {
+      Place: {
         address: "85 W St at Albany St",
         city: "New York",
         state: "NY",
@@ -170,7 +170,7 @@ var data = {
     },
     {
       name: "Cosmopolitan Hotel",
-      place: {
+      Place: {
         address: "95 W Broadway",
         city: "New York",
         state: "NY",
@@ -182,7 +182,7 @@ var data = {
     },
     {
       name: "Club Quarters",
-      place: {
+      Place: {
         address: "140 Washington St",
         city: "New York",
         state: "NY",
@@ -193,10 +193,10 @@ var data = {
       amenities: "Free Wif-Fi"
     }
   ],
-  restaurant: [
+  Restaurant: [
     {
       name: "Bouley",
-      place: {
+      Place: {
         address: "75 Wall St",
         city: "New York",
         state: "NY",
@@ -208,7 +208,7 @@ var data = {
     },
     {
       name: "Marc Forgione",
-      place: {
+      Place: {
         address: "134 Reade St",
         city: "New York",
         state: "NY",
@@ -220,7 +220,7 @@ var data = {
     },
     {
       name: "Tamarind",
-      place: {
+      Place: {
         address: "99 Hudson St",
         city: "New York",
         state: "NY",
@@ -232,7 +232,7 @@ var data = {
     },
     {
       name: "Hop Lee Restaurant",
-      place: {
+      Place: {
         address: "16 Mott St",
         city: "New York",
         state: "NY",
@@ -244,7 +244,7 @@ var data = {
     },
     {
       name: "Jungsik",
-      place: {
+      Place: {
         address: "2 Harrison St",
         city: "New York",
         state: "NY",
@@ -256,7 +256,7 @@ var data = {
     },
     {
       name: "The Capital Grille",
-      place: {
+      Place: {
         address: "120 Broadway",
         city: "New York",
         state: "NY",
@@ -268,7 +268,7 @@ var data = {
     },
     {
       name: "Pylos",
-      place: {
+      Place: {
         address: "128 E 7th St",
         city: "New York",
         state: "NY",
@@ -280,7 +280,7 @@ var data = {
     },
     {
       name: "Joe's Shanghai",
-      place: {
+      Place: {
         address: "9 Pell St",
         city: "New York",
         state: "NY",
@@ -292,7 +292,7 @@ var data = {
     },
     {
       name: "Cafe Katja",
-      place: {
+      Place: {
         address: "79 Orchard St",
         city: "New York",
         state: "NY",
@@ -304,7 +304,7 @@ var data = {
     },
     {
       name: "Rosanjin",
-      place: {
+      Place: {
         address: "141 Duane St",
         city: "New York",
         state: "NY",
@@ -316,7 +316,7 @@ var data = {
     },
     {
       name: "Kittichai",
-      place: {
+      Place: {
         address: "60 Thompson St",
         city: "New York",
         state: "NY",
@@ -328,7 +328,7 @@ var data = {
     },
     {
       name: "Bianca Restaurant",
-      place: {
+      Place: {
         address: "5 Bleecker St",
         city: "New York",
         state: "NY",
@@ -340,7 +340,7 @@ var data = {
     },
     {
       name: "Rayuela",
-      place: {
+      Place: {
         address: "165 Allen St",
         city: "New York",
         state: "NY",
@@ -352,7 +352,7 @@ var data = {
     },
     {
       name: "Mas Farmhouse",
-      place: {
+      Place: {
         address: "39 Downing St",
         city: "New York",
         state: "NY",
@@ -364,7 +364,7 @@ var data = {
     },
     {
       name: "Xe Lua",
-      place: {
+      Place: {
         address: "86 Mulberry St",
         city: "New York",
         state: "NY",
@@ -375,10 +375,10 @@ var data = {
       price: 1
     }
   ],
-  activity: [
+  Activity: [
     {
       name: "Mahayana Temple Buddhist Association",
-      place: {
+      Place: {
         address: "133 Canal St",
         city: "New York",
         state: "NY",
@@ -389,7 +389,7 @@ var data = {
     },
     {
       name: "South Street Seaport",
-      place: {
+      Place: {
         address: "19 Fulton St",
         city: "New York",
         state: "NY",
@@ -400,7 +400,7 @@ var data = {
     },
     {
       name: "National September 11th Memorial & Museum",
-      place: {
+      Place: {
         address: "1 Albany St",
         city: "New York",
         state: "NY",
@@ -411,7 +411,7 @@ var data = {
     },
     {
       name: "Battery Park",
-      place: {
+      Place: {
         address: "State St & Battery Pl",
         city: "New York",
         state: "NY",
@@ -422,7 +422,7 @@ var data = {
     },
     {
       name: "Staten Island Ferry Whitehall Terminal",
-      place: {
+      Place: {
         address: "4 S St",
         city: "New York",
         state: "NY",
@@ -433,7 +433,7 @@ var data = {
     },
     {
       name: "Chinatown Ice Cream Factory",
-      place: {
+      Place: {
         address: "65 Bayard St",
         city: "New York",
         state: "NY",
@@ -444,7 +444,7 @@ var data = {
     },
     {
       name: "Blue Man Group",
-      place: {
+      Place: {
         address: "434 Lafayette St",
         city: "New York",
         state: "NY",
@@ -455,7 +455,7 @@ var data = {
     },
     {
       name: "Scott's Pizza Tours",
-      place: {
+      Place: {
         address: "244 5th Ave",
         city: "New York",
         state: "NY",
@@ -466,7 +466,7 @@ var data = {
     },
     {
       name: "Apple Store",
-      place: {
+      Place: {
         address: "103 Prince St",
         city: "New York",
         state: "NY",
@@ -477,7 +477,7 @@ var data = {
     },
     {
       name: "Brooklyn Bridge Park",
-      place: {
+      Place: {
         address: "Pier 1",
         city: "New York",
         state: "NY",
@@ -488,7 +488,7 @@ var data = {
     },
     {
       name: "Ellis Island Immigration Museum",
-      place: {
+      Place: {
         address: "Ellis Island",
         city: "New York",
         state: "NY",
@@ -499,7 +499,7 @@ var data = {
     },
     {
       name: "Washington Square Park",
-      place: {
+      Place: {
         address: "1 Washington Sq E",
         city: "New York",
         state: "NY",
@@ -510,7 +510,7 @@ var data = {
     },
     {
       name: "Union Square Holiday Market",
-      place: {
+      Place: {
         address: "Union Sq & W 14th St",
         city: "New York",
         state: "NY",
@@ -521,7 +521,7 @@ var data = {
     },
     {
       name: "Strand Bookstore",
-      place: {
+      Place: {
         address: "828 Broadway",
         city: "New York",
         state: "NY",
